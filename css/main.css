@@ -1394,4 +1394,8 @@ img {
 
 .current-mob {
   color: #2196f3;
+}
+
+.no-scroll {
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
