@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--header-background);
+  border-bottom: 1px solid #ececec;
+  margin: 0 auto;
+}
+.header .conteiner {
+  display: flex;
+}
+
+.header__logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}

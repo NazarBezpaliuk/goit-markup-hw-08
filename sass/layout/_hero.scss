@@ -1,0 +1,12 @@
+.hero {
+  background-color: var(--hero-background-color);
+  padding: 200px 0;
+  text-align: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../image/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  //width: 480px;
+  // margin: 0 auto;
+}

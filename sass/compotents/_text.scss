@@ -1,0 +1,31 @@
+.qualities-list__text {
+  font-size: 14px;
+  color: var(--text-color);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  // max-width: 270px;
+}
+
+.what-we-do-box__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.workers-list__name {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--title-h2-h3-color);
+  letter-spacing: 0.03em;
+  line-height: 1.19;
+  margin-bottom: 10px;
+}
+.workers-list__text {
+  font-size: 16px;
+  color: var(--text-color);
+  letter-spacing: 0.03em;
+  line-height: 1.19;
+  margin-bottom: 16px;
+}
