@@ -1281,8 +1281,8 @@ img {
   flex-direction: column;
   justify-content: space-between;
   z-index: 2;
-  transform: translateX(0);
-  transition: transform 3000ms, opacity 3000ms, visibility 3000ms;
+  transform: scale(1) translateX(0);
+  transition: transform 2000ms, opacity 2000ms, visibility 2000ms;
 }
 @media screen and (min-width: 768px) {
   .menu-mob {
@@ -1291,8 +1291,8 @@ img {
 }
 
 .menu-mob.is-hidden-mob {
-  transform: translateX(100%);
-  transition: transform 3000ms, opacity 3000ms, visibility 3000ms;
+  transform: scale(0) translateX(100%);
+  transition: transform 2000ms, opacity 2000ms, visibility 2000ms;
 }
 
 .menu-mob__open {
