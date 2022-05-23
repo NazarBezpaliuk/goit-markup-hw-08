@@ -856,6 +856,10 @@ img {
   color: #fff;
   margin-bottom: 20px;
 }
+.subscribe-input__email:focus, .subscribe-input__email:hover {
+  border-color: #2196f3;
+  outline: none;
+}
 @media screen and (min-width: 1200px) {
   .subscribe-input__email {
     width: 358px;
@@ -869,10 +873,6 @@ img {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-.subscribe-input__email::placeholder:focus, .subscribe-input__email::placeholder:hover {
-  border-color: #2196f3;
-  outline: none;
 }
 
 .subscribe-input__btn {
