@@ -1209,6 +1209,13 @@ img {
   cursor: pointer;
   display: flex;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 480px) {
+  .modal-form__police {
+    flex-direction: row;
+  }
 }
 
 .modal-form__police-link {
