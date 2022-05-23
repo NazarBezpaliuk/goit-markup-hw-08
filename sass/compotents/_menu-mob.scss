@@ -9,9 +9,15 @@
   flex-direction: column;
   justify-content: space-between;
   z-index: 2;
+  transform: translateX(0);
+  transition: transform 3000ms, opacity 3000ms, visibility 3000ms;
   @media screen and (min-width: 768px) {
     display: none;
   }
+}
+.menu-mob.is-hidden-mob {
+  transform: translateX(100%);
+  transition: transform 3000ms, opacity 3000ms, visibility 3000ms;
 }
 .menu-mob__open {
   margin-left: auto;
@@ -104,6 +110,7 @@
 }
 .mob-menu-social-list {
   display: flex;
+  justify-content: center;
 }
 .mob-menu-social-list__item:not(:last-child)::after {
   content: '';
@@ -130,4 +137,9 @@
 }
 .no-scroll {
   overflow: hidden;
+}
+.is-hidden-mob {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
