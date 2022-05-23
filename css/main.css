@@ -1072,14 +1072,20 @@ img {
 
 .modal {
   padding: 40px;
-  width: 528px;
-  height: 581px;
+  width: 100%;
+  height: 100%;
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   position: relative;
   transition: transform 3000ms;
   transform: rotate(0);
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .modal__title {
@@ -1123,12 +1129,17 @@ img {
 }
 
 .modal-box__input {
-  width: 448px;
+  width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 480px) {
+  .modal-box__input {
+    width: 448px;
+  }
 }
 .modal-box__input:focus, .modal-box__input:hover {
   border-color: #2196f3;
