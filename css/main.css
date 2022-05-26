@@ -16,7 +16,7 @@
 
 .hero {
   background-color: var(--hero-background-color);
-  padding: 200px 0;
+  padding: 118px 0;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/hero-bg-mob.png);
   background-repeat: no-repeat;
@@ -31,6 +31,7 @@
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/hero.png);
+    padding: 200px 0;
   }
 }
 
@@ -150,6 +151,9 @@
   width: 100%;
   margin-bottom: 30px;
   display: block;
+}
+.qualities-list__items:last-child {
+  margin-bottom: 0;
 }
 @media screen and (min-width: 768px) {
   .qualities-list__items {
@@ -867,6 +871,7 @@ img {
   .subscribe-input__email {
     width: 358px;
     margin-right: 12px;
+    margin-bottom: 0;
   }
 }
 
