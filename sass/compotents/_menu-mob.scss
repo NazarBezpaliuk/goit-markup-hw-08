@@ -112,6 +112,7 @@
 .mob-menu-social-list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .mob-menu-social-list__item:not(:last-child)::after {
   content: '';
@@ -125,6 +126,7 @@
 .mob-menu-social-list__item {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .mob-contacts {
   margin-bottom: 64px;
