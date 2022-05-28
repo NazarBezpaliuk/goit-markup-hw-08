@@ -875,6 +875,11 @@ img {
   border-color: #2196f3;
   outline: none;
 }
+@media screen and (min-width: 768px) {
+  .subscribe-input__email {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .subscribe-input__email {
     width: 358px;
