@@ -4,12 +4,10 @@
     margin-left: -30px;
     display: flex;
     flex-wrap: wrap;
-    // margin-bottom: -30px;
   }
 }
 .card-list__item {
   display: block;
-  // box-sizing: border-box;
   width: 100%;
   &:not(:last-child) {
     margin-bottom: 30px;
